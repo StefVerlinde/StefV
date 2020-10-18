@@ -1,0 +1,10 @@
+.aboutme-container {
+    padding-top: 2rem;
+    padding-left: 25%;
+    padding-right: 25%;
+    background: #fff;
+}
+
+.aboutme-container > p {
+    text-align: center;
+}

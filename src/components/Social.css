@@ -1,0 +1,20 @@
+.social {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-icon-link {
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.social-icon-link2 {
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: black;
+}

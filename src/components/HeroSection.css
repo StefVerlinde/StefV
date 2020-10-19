@@ -39,10 +39,20 @@ video {
     margin: 6px;
 }
 
+.profilep {
+    height: 300px;
+    margin-bottom: 8rem;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.25);
+}
+
 @media screen and (max-width: 960px) {
     .hero-c > h1 {
         font-size: 70px;
         margin-top: -150px;
+    }
+
+    .profilep {
+        margin-bottom: 10rem;
     }
 }
 
@@ -63,6 +73,10 @@ video {
 
     .btn {
         width: 100%;
+    }
+
+    .profilep {
+        height: 200px;
     }
 }
 

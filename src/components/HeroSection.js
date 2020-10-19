@@ -6,6 +6,7 @@ function HeroSection() {
   return (
     <div className="hero-c">
       <video src="/videos/video-4.mp4" autoPlay loop muted />
+      <img src="/images/StefVerlinde.png" alt="profile pic" className="rounded-circle profilep"/>
       <h1>Stef Verlinde</h1>
       <p>Full-stack developer</p>
       <div className="hero-btns">

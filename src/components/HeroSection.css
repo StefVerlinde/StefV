@@ -57,6 +57,9 @@ video {
 }
 
 @media screen and (max-width: 768px) {
+    /* video {
+        display: none;
+    } */
     .hero-c > h1 {
         font-size: 50px;
         margin-top: -100px;

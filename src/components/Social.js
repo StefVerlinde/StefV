@@ -36,7 +36,7 @@ function Social() {
   });
 
   return (
-    <div className="social">
+    <div className="social" data-aos="fade-left">
       <a href="https://www.facebook.com/stef.verlinde/" className={classname1} target="_blank" aria-label="Facebook" rel="noopener noreferrer">
         <i className="fab fa-facebook-f" />
       </a>

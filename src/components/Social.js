@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import "./Social.css";
 
 function Social() {
@@ -38,15 +37,15 @@ function Social() {
 
   return (
     <div className="social">
-      <Link className={classname1} to="/" target="_blank" aria-label="Facebook">
+      <a href="https://www.facebook.com/stef.verlinde/" className={classname1} target="_blank" aria-label="Facebook" rel="noopener noreferrer">
         <i className="fab fa-facebook-f" />
-      </Link>
-      <Link className={classname2} to="/" target="_blank" aria-label="Instagram">
+      </a>
+      <a href="https://www.instagram.com/stefverlinde/" className={classname2} target="_blank" aria-label="Instagram" rel="noopener noreferrer">
         <i className="fab fa-instagram" />
-      </Link>
-      <Link className={classname3} to="/" target="_blank" aria-label="LinkedIn">
+      </a>
+      <a href="https://www.linkedin.com/in/stef-verlinde-09922319a/" className={classname3} target="_blank" aria-label="LinkedIn" rel="noopener noreferrer">
         <i className="fab fa-linkedin" />
-      </Link>
+      </a>
     </div>
   );
 }

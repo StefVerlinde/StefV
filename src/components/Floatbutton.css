@@ -8,20 +8,11 @@
   cursor: pointer;
   z-index: 1000;
   cursor: pointer;
-  animation: fadeIn 0.5s;
-  transition: opacity 0.4s;
-  opacity: 0.5;
+  background: #fff;
+  transition: opacity 2s ease-in;
 }
 
 .scrollTop:hover {
-  opacity: 1;
+  color: lightblue;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}

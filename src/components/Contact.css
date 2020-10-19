@@ -3,6 +3,11 @@
   padding-right: 25%;
   background-color: #fff;
   padding-bottom: 40px;
+  text-align: center;
+}
+
+::placeholder {
+    text-align: center;
 }
 
 .sendButton_c {

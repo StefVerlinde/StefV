@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Floatbutton.css";
 
 function Floatbutton() {
@@ -24,7 +24,7 @@ function Floatbutton() {
 
   return (
     <button className="scrollTop" onClick={scrollTop} style={{ display: showScroll ? 'flex' : 'none'}}>
-      <i class="fas fa-arrow-circle-up"></i>
+      <i className="fas fa-chevron-circle-up"></i>
     </button>
   );
 }

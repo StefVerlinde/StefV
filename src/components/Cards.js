@@ -12,17 +12,17 @@ function Cards() {
             <CardItem
               src="images/geertverlinde.png"
               text="Website for a graphic designer"
-              path="/"
+              path="https://geertverlinde.be/"
             />
             <CardItem
               src="images/qw.png"
               text="Website for a startup in Ghent"
-              path="/"
+              path="https://www.quick-walk.com/index.html"
             />
             <CardItem
               src="images/taijitan.png"
               text="Administrative tool for a non-profit organisation"
-              path="/"
+              path="https://github.com/StefVerlinde/Taijitan_WebApplicatie"
             />
           </ul>
           {/* <ul className="cards__items">

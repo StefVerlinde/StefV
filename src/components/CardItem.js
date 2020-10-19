@@ -2,9 +2,10 @@ import React from "react";
 import "./Cards.css";
 
 function CardItem(props) {
+
   return (
     <>
-      <li className="cards__item">
+      <li className="cards__item" data-aos={props.fade}>
         <a
           href={props.path}
           className="cards__item__link"

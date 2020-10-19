@@ -1,51 +1,46 @@
-import React from 'react';
-import CardItem from './CardItem';
-import './Cards.css';
+import React from "react";
+import CardItem from "./CardItem";
+import "./Cards.css";
 
 function Cards() {
-    return (
-        <div className="cards" id="projects">
-            <h1>Projects</h1>
-            <div className="cards__container">
-                <div className="cards__wrapper">
-                <ul className='cards__items'>
+  return (
+    <div className="cards" id="projects">
+      <h1>Projects</h1>
+      <div className="cards__c">
+        <div className="cards__wrapper">
+          <ul className="cards__items">
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              src="images/geertverlinde.png"
+              text="Website for a graphic designer"
+              path="/"
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src="images/qw.png"
+              text="Website for a startup in Ghent"
+              path="/"
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src="images/taijitan.png"
+              text="Administrative tool for a non-profit organisation"
+              path="/"
             />
           </ul>
-                </div>
-            </div>
+          {/* <ul className="cards__items">
+            <CardItem
+              src=""
+              text=""
+              path="/"
+            />
+            <CardItem
+              src=""
+              text=""
+              path="/"
+            />
+          </ul> */}
         </div>
-    );
+      </div>
+    </div>
+  );
 }
 
-export default Cards
+export default Cards;

@@ -9,9 +9,9 @@ function Social() {
   const [classname3, setClassname3] = useState("social-icon-link");
 
   const listenScrollEvent = (event) => {
-    if (window.scrollY < vhToPixels(100)) {
+    if (window.scrollY < vhToPixels(95)) {
       setClassname1("social-icon-link");
-    } else if (window.scrollY > vhToPixels(100)) {
+    } else if (window.scrollY > vhToPixels(95)) {
       setClassname1("social-icon-link2");
     }
     if (window.scrollY < vhToPixels(90)) {
@@ -19,9 +19,9 @@ function Social() {
     } else if (window.scrollY > vhToPixels(90)) {
       setClassname2("social-icon-link2");
     }
-    if (window.scrollY < vhToPixels(80)) {
+    if (window.scrollY < vhToPixels(85)) {
       setClassname3("social-icon-link");
-    } else if (window.scrollY > vhToPixels(80)) {
+    } else if (window.scrollY > vhToPixels(85)) {
       setClassname3("social-icon-link2");
     }
   };
@@ -34,7 +34,7 @@ function Social() {
     window.addEventListener("scroll", listenScrollEvent);
 
     return () => window.removeEventListener("scroll", listenScrollEvent);
-  }, []);
+  });
 
   return (
     <div className="social">

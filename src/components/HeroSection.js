@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 function HeroSection() {
   return (
-    <div className="hero-container">
+    <div className="hero-c">
       <video src="/videos/video-4.mp4" autoPlay loop muted />
       <h1>Stef Verlinde</h1>
       <p>Full-stack developer</p>

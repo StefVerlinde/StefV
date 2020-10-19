@@ -28,6 +28,15 @@ function HeroSection() {
         >
           PROJECTS
         </Link>
+        <Link
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={1000}
+          className="btn btn--outline btn--large"
+        >
+          CONTACT
+        </Link>
       </div>
     </div>
   );

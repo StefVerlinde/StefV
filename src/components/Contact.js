@@ -3,7 +3,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="contactForm">
+    <div className="contactForm" id="contact">
       <h1>Contact</h1>
       <form action="sendEmail.php" method="POST">
         <div className="form-group">

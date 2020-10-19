@@ -5,6 +5,7 @@ import HeroSection from '../HeroSection';
 import AboutMe from '../AboutMe';
 import Social from '../Social';
 import Contact from '../Contact';
+import Floatbutton from '../Floatbutton';
 
 function Home () {
     return (
@@ -14,6 +15,7 @@ function Home () {
             <Cards />
             <Contact />
             <Social />
+            <Floatbutton />
         </>
     )
 }

@@ -13,6 +13,10 @@
     color: white;
 }
 
+.social-icon-link:hover, .social-icon-link2:hover {
+    color: lightblue;
+}
+
 .social-icon-link2 {
     padding: 0.5rem;
     font-size: 2rem;

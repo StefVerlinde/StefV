@@ -7,4 +7,16 @@
 
 .tekst {
     text-align: center;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+.tekst > a {
+    color: blue;
+    font-weight: bold;
+}
+
+.tekst > a:hover {
+    color: lightblue;
+    text-decoration: none;
 }

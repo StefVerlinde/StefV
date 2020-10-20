@@ -6,7 +6,7 @@ function Contact() {
   return (
     <div className="contactForm" id="contact">
       <h1 data-aos="fade-right">Contact</h1>
-      <form action="sendEmail.php" method="POST">
+      <form action="https://formspree.io/f/xbjpodnr" method="POST">
         <div data-aos="fade-left">
           <div className="form-group">
             <label>Name</label>

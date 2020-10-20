@@ -2,7 +2,6 @@ import React from "react";
 import "./Contact.css";
 
 function Contact() {
-
   return (
     <div className="contactForm" id="contact">
       <h1 data-aos="fade-right">Contact</h1>
@@ -59,6 +58,7 @@ function Contact() {
           </div>
         </div>
         <div className="sendButton_c" data-aos="flip-right">
+          <div class="g-recaptcha" data-sitekey="6Lelg9kZAAAAAEF-VaKtiD7rwBRfRd63w2YRJjBD"></div>
           <button name="submitNL" type="submit" className="sendButton">
             <i className="far fa-paper-plane"></i>
           </button>

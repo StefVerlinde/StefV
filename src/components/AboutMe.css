@@ -5,6 +5,10 @@
     background: #fff;
 }
 
+.aboutMe__c > h1 {
+    padding-bottom: 1em;
+}
+
 .tekst {
     text-align: center;
     font-size: large;

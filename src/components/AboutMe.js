@@ -9,7 +9,7 @@ function AboutMe() {
   }, []);
   return (
     <div id="aboutMe">
-      <div data-aos="fade-right">
+      <div className="aboutMe__c" data-aos="fade-right">
         <h1>About Me</h1>
         <div className="tekst">
           My name is Stef Verlinde. I'm a graduated HoGent informatics student.

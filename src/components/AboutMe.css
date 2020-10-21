@@ -1,8 +1,7 @@
 #aboutMe {
-    padding-top: 2rem;
     padding-left: 25%;
     padding-right: 25%;
-    background: #fff;
+    padding-top: 2rem;
 }
 
 .aboutMe__c > h1 {
@@ -23,4 +22,12 @@
 .tekst > a:hover {
     color: lightblue;
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    #aboutMe {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }

@@ -11,11 +11,11 @@ function Home () {
     return (
         <>
             <HeroSection />
+            <Social />
+            <Floatbutton />
             <AboutMe />
             <Cards />
             <Contact />
-            <Social />
-            <Floatbutton />
         </>
     )
 }

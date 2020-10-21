@@ -22,3 +22,10 @@
 .social-icon-link:hover, .social-icon-link2:hover {
     color: lightblue;
 }
+
+
+@media screen and (max-width: 768px) {
+    .social {
+        position: absolute;
+    }
+}

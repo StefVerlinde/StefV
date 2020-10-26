@@ -37,8 +37,8 @@ function Social() {
 
   return (
     <div className="social" data-aos="fade-left">
-      <a href="https://www.facebook.com/stef.verlinde/" className={classname1} target="_blank" aria-label="Facebook" rel="noopener noreferrer">
-        <i className="fab fa-facebook-f" />
+      <a href="https://github.com/StefVerlinde" className={classname1} target="_blank" aria-label="Github" rel="noopener noreferrer">
+        <i class="fab fa-github-square" />
       </a>
       <a href="https://www.instagram.com/stefverlinde/" className={classname2} target="_blank" aria-label="Instagram" rel="noopener noreferrer">
         <i className="fab fa-instagram" />

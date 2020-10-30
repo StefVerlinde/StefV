@@ -12,26 +12,25 @@ function AboutMe() {
       <div className="aboutMe__c" data-aos="fade-right">
         <h1>About Me</h1>
         <div className="tekst">
-          My name is Stef Verlinde. I'm a graduated applied computer sciences
-          student in Ghent. My main interests are fullstack web development. But
-          I'm interested in anything that can improve my general programming
-          skills.{" "}
+          My name is Stef Verlinde. I am a graduated applied computer sciences
+          student. My main interests are fullstack web development, but I am
+          interested in anything that can improve my general programming skills.{" "}
         </div>
         <br></br>
         <div className="tekst">
           As a person I like to get things right the first time I do them.
           That's what challenges me to learn a lot of new technologies and
-          finish a project with the correct and newest methode.{" "}
+          finish a project with the correct and newest method.{" "}
         </div>
         <br></br>
         <div className="tekst">
-          Working in a team of friends is what really motivates me to bring a
-          project to a good end result. Altough I'm not scared to work alone for
-          the extra challenge to learn by myself.
+          Working in a team of friends is what really motivates me to to see a
+          project trough, although I am not afraid to work alone / individually
+          either as it is an extra challenge and learning opportunity.
         </div>
         <br></br>
         <div className="tekst">
-          To graduate at HoGent I did an internship at{" "}
+          During my studies at HoGent I did an internship at{" "}
           <a
             href="https://www.orbid.be"
             target="_blank"
@@ -39,7 +38,7 @@ function AboutMe() {
           >
             Orbid
           </a>
-          , where I worked around OAuth.{" "}
+          , where I worked with OAuth and Identity Server.{" "}
         </div>
       </div>
     </div>

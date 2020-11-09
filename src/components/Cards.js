@@ -19,27 +19,23 @@ function Cards() {
               src="images/qw.png"
               text="Website for a startup in Ghent"
               path="https://www.quick-walk.com/index.html"
-              fade="fade-up"
+              fade="fade-left"
             />
+          </ul>
+          <ul className="cards__items">
             <CardItem
               src="images/taijitan.png"
               text="Administrative tool for a non-profit organisation"
               path="https://github.com/StefVerlinde/Taijitan_WebApplicatie"
+              fade="fade-right"
+            />
+            <CardItem
+              src="images/whosup.png"
+              text="Website for business who's up"
+              path="https://whosup.be/"
               fade="fade-left"
             />
           </ul>
-          {/* <ul className="cards__items">
-            <CardItem
-              src=""
-              text=""
-              path="/"
-            />
-            <CardItem
-              src=""
-              text=""
-              path="/"
-            />
-          </ul> */}
         </div>
       </div>
     </div>
